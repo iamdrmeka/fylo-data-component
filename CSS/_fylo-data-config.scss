@@ -1,0 +1,25 @@
+//font
+$font-family: 'Raleway', sans-serif;
+
+// ## Colors
+
+// ### Primary
+
+$Gradient: hsl(6, 100%, 80%);
+$Gradient2: hsl(335, 100%, 65%);
+
+// ### Neutral
+
+$Pale-Blue: hsl(243, 100%, 93%);
+$Grayish-Blue: hsl(229, 7%, 55%);
+$Dark-Blue: hsl(228, 56%, 26%);
+$Very-Dark-Blue: hsl(229, 57%, 11%);
+
+//reset
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: ease 0.6s;
+    font-family: $font-family;
+}
